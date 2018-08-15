@@ -1,0 +1,8 @@
+var app = require('../server/server');
+
+var port = 8000;
+app.listen(port, function(){
+  console.log('server listening on port: '+ port);
+});
+
+//this file is needed by webpack

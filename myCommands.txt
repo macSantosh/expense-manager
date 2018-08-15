@@ -1,0 +1,17 @@
+#crate react app
+  $create-react-app expense-manager
+
+#start app
+  $npm start
+
+#install dependencies
+  $npm i axios babel-cli babel-preset-es2015 ejs body-parser e
+    xpress mongoose nodemon react-bootstrap react-modal react-router-dom --SAVE
+
+#note ES5 = ECMA Script 2016, ES6 are javascript versions
+
+#restructure folder as this project
+
+#install ejs and babel-preset-es2015
+
+"start": "npm run webpack && nodemon --exec babel-node -- bin/www",

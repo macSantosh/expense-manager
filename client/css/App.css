@@ -1,0 +1,48 @@
+.header{
+  /*height: 5em;*/
+  padding:1em;
+}
+button-col {
+    width:15%;
+    text-align:center;
+}
+.desc-col {
+ width:45%;
+ text-align:left;
+}
+.small-col{
+  width:10%;
+}
+table {
+    counter-reset: tableCount;
+    margin-top: 1em;
+}
+button{
+    margin-left:1em;
+}
+.counterCell:before {
+    content: counter(tableCount);
+    counter-increment: tableCount;
+}
+.counterCell {
+ text-align: center;
+ width:50px;
+}
+.button-center {
+ text-align: center;
+}
+.Modal{
+  position: relative;
+  top: 150px;
+  left: 400px;
+  right: 20px;
+  bottom: 20px;
+  background-color: #F5F5F5;
+  width:500px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 20px;
+}
+.error{
+    border: 1px solid red;
+}
