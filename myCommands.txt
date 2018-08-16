@@ -15,3 +15,12 @@
 #install ejs and babel-preset-es2015
 
 "start": "npm run webpack && nodemon --exec babel-node -- bin/www",
+
+GIT COMMANDS:
+
+git add . #add file to git
+git commit -m "committing project to git" #commit to git locally
+git remote add origin https://github.com/macSantosh/expense-manager.git #only one time, set the remote git url
+
+git remote -v #veriy git remote
+git push -u origin master #push to git remote
